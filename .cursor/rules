@@ -1,0 +1,49 @@
+# Cursor Rules
+
+## General Rules
+
+1. Review and follow the rules in `.ai/rules`
+2. Use `.ai/notes` for keeping track of decisions and context
+3. Keep documentation in the `docs/` directory
+4. Follow security best practices
+5. Consider scalability and performance
+
+## Code Style
+
+1. Use TypeScript for all code
+2. Follow the project's linting and formatting rules
+3. Use proper error handling
+4. Write comprehensive tests
+5. Document complex logic
+
+## Documentation
+
+1. Keep documentation in the `docs/` directory
+2. Update documentation when making changes
+3. Include examples where relevant
+4. Keep documentation focused and concise
+5. Use proper markdown formatting
+
+## Security
+
+1. Never hardcode secrets
+2. Use environment variables for configuration
+3. Implement proper authentication
+4. Follow security best practices
+5. Regular security audits
+
+## Performance
+
+1. Optimize for speed
+2. Minimize dependencies
+3. Use caching where appropriate
+4. Monitor resource usage
+5. Profile and optimize bottlenecks
+
+## Deployment
+
+1. Follow CI/CD best practices
+2. Use proper versioning
+3. Test before deployment
+4. Monitor deployments
+5. Have rollback plans

@@ -1,0 +1,31 @@
+{
+  "name": "golinks",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "nx run-many --target=build",
+    "test": "nx run-many --target=test",
+    "lint": "nx run-many --target=lint",
+    "format": "nx run-many --target=format",
+    "typecheck": "nx run-many --target=typecheck"
+  },
+  "devDependencies": {
+    "@nx/devkit": "^18.0.0",
+    "@nx/js": "^18.0.0",
+    "@nx/react": "^18.0.0",
+    "@nx/web": "^18.0.0",
+    "@swc/cli": "^0.89.0",
+    "@swc/core": "^1.5.0",
+    "@types/node": "^20.11.0",
+    "biome": "^1.5.3",
+    "nx": "^18.0.0",
+    "oxlint": "^0.1.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.11.1"
+  }
+}

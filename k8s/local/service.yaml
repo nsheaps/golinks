@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: golinks
+spec:
+  selector:
+    app: golinks
+  ports:
+    - name: web
+      port: 80
+      targetPort: 3000
+    - name: api
+      port: 8080
+      targetPort: 8080
+  type: ClusterIP
